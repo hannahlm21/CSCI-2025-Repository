@@ -1,0 +1,9 @@
+
+```{r}
+library(tidyverse)
+library(nycflights13)
+```
+```{r}
+ggplot(flights, aes(x = carrier)) + 
+    geom_bar()
+```
